@@ -189,10 +189,10 @@ e5.grid(row=6,column=3)
 first=Button(root,text="First Record",bg="white",fg="blue", width=20,relief=RAISED,command=first)
 first.grid(row=8,column=1)
 
-Next= Button(root, text="Previous", bg="white", fg="blue", width=20, relief=RAISED,command=Next)
+Next= Button(root, text="Next", bg="white", fg="blue", width=20, relief=RAISED,command=Next)
 Next.grid(row=8, column=2)
 
-previous = Button(root, text="Next", bg="white", fg="blue", width=20, relief=RAISED,command=prev)
+previous = Button(root, text="Previous", bg="white", fg="blue", width=20, relief=RAISED,command=prev)
 previous.grid(row=8, column=3)
 
 last=Button(root,text="Last Record",bg="white",fg="blue", width=20,relief=RAISED,command=last)
