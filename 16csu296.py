@@ -113,9 +113,9 @@ def last():
     f4.close()
 
 
-def next():
+def Next():
     global count
-    f=open('open.txt','r')
+    f=open('db.txt','r')
     i=0
     while(i<=count):
         l=f.readline()
@@ -133,7 +133,7 @@ def next():
 def prev():
     global count
     if count!=1:
-        f=open('open.txt','r')
+        f=open('db.txt','r')
         i=0
         count = count - 1
         while(i<count):
@@ -169,19 +169,19 @@ l5.grid(row=6,column=1)
 l6=Label(root,text=" ")
 l6.grid(row=7, column=1)
 
-e1=Entry(root)
+e1=Entry(root,textvariable=a1)
 e1.grid(row=2,column=3)
 
-e2=Entry(root)
+e2=Entry(root,textvariable=a2)
 e2.grid(row=3,column=3)
 
-e3=Entry(root)
+e3=Entry(root,textvariable=a3)
 e3.grid(row=4,column=3)
 
-e4=Entry(root)
+e4=Entry(root,textvariable=a4)
 e4.grid(row=5,column=3)
 
-e5=Entry(root)
+e5=Entry(root,textvariable=a5)
 e5.grid(row=6,column=3)
 
 
@@ -189,8 +189,8 @@ e5.grid(row=6,column=3)
 first=Button(root,text="First Record",bg="white",fg="blue", width=20,relief=RAISED,command=first)
 first.grid(row=8,column=1)
 
-next= Button(root, text="Previous", bg="white", fg="blue", width=20, relief=RAISED,command=next)
-next.grid(row=8, column=2)
+Next= Button(root, text="Previous", bg="white", fg="blue", width=20, relief=RAISED,command=Next)
+Next.grid(row=8, column=2)
 
 previous = Button(root, text="Next", bg="white", fg="blue", width=20, relief=RAISED,command=prev)
 previous.grid(row=8, column=3)
