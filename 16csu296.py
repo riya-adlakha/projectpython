@@ -202,7 +202,7 @@ save=Button(root,text="Add",bg="white",fg="blue", width=20,relief=RAISED,command
 save.grid(row=9,column=1)
 
 exit=Button(root,text="Exit",bg="white",fg="blue",relief=RAISED,width=20,command=Exit)
-exit.grid(row=9,column=2)
+exit.grid(row=10,column=2)
 
 Search=Button(root,text="Search",bg="white",fg="blue",relief=RAISED, width=20,command=srch)
 Search.grid(row=9,column=3)
@@ -211,7 +211,7 @@ Update=Button(root,text="Update",bg="white",fg="blue",relief=RAISED, width=20,co
 Update.grid(row=9,column=4)
 
 Del=Button(root,text="Delete",bg="white",fg="blue",relief=RAISED, width=20,command=Del)
-Del.grid(row=10,column=2)
+Del.grid(row=9,column=2)
 
 
 root.mainloop()
