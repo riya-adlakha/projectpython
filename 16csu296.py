@@ -71,7 +71,7 @@ def updt():
 
 
 def Del() :
-    str = input("Delete the details of which model?")
+    str = input("Enter the Model Name for which you want to delete the record.")
     with open("db.txt",'r+') as f :
         f1=f.readlines()
         f.seek(0)
