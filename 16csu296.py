@@ -92,6 +92,12 @@ def first():
     f = open("db.txt")
     line = f.readline()
     print(line)
+    a=line.split()
+    a1.set(a[0])
+    a2.set(a[1])
+    a3.set(a[2])
+    a4.set(a[3])
+    a5.set(a[4])
     f.close()
 
 
