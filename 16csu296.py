@@ -201,8 +201,8 @@ last.grid(row=8,column=4)
 save=Button(root,text="Add",bg="white",fg="blue", width=20,relief=RAISED,command=add)
 save.grid(row=9,column=1)
 
-exit=Button(root,text="Exit",bg="white",fg="blue",relief=RAISED,width=20,command=Exit)
-exit.grid(row=10,column=2)
+Exit=Button(root,text="Exit",bg="white",fg="blue",relief=RAISED,width=20,command=Exit)
+Exit.grid(row=10,column=2)
 
 Search=Button(root,text="Search",bg="white",fg="blue",relief=RAISED, width=20,command=srch)
 Search.grid(row=9,column=3)
